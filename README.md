@@ -2,7 +2,7 @@
 The chatbox project involves creating a simple chat application in Java with both a server and client, each with a graphical user interface (GUI) built using Swing.
 This Java chat application project is a simple yet effective demonstration of client-server communication using Java's networking API. The project allows multiple clients to connect to a central server and exchange messages in real-time. Below is a breakdown of the key components and functionalities:
 
-1PROJECT COMPONENTS
+1. PROJECT COMPONENTS
 
   a. Chat Server
 Role: The server acts as a mediator between clients, facilitating the exchange of messages.
