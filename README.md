@@ -12,6 +12,8 @@ Handles multiple clients simultaneously using threading.
 Broadcasts messages received from one client to all other connected clients.
 Maintains a list of connected clients to manage connections and relay messages.
     b. Chat Client
+
+    
 Role: The client is a participant in the chat, sending and receiving messages via the server.
 Functionality:
 Connects to the server using its hostname and port.
@@ -20,13 +22,21 @@ Displays messages from other users received from the server.
 Supports multiple instances, allowing several clients to join the chat room.
 
  3. KEYS CONCEPT
+
+  
     a. Sockets and Networking
+
     Socket: A socket is an endpoint for sending or receiving data across a network. The server uses a ServerSocket to listen for connections, and each client uses 
     a Socket to connect to the server.
        Networking: This project leverages Java's networking capabilities to establish communication channels between the server and clients.
+
+    
 b. Multithreading
 Server Multithreading: The server uses multiple threads to handle multiple client connections simultaneously. Each client is managed by a separate ClientHandler thread, allowing the server to process messages from different clients concurrently.
+
 Client Multithreading: The client also uses separate threads for reading messages from the server and sending messages, enabling real-time interaction without blocking the main application flow.
+
+
 c. Input/Output Streams
 InputStream/OutputStream: These are used to send and receive data between the server and clients. The server reads client messages through InputStream and sends responses using OutputStream.
 BufferedReader/PrintWriter: These classes are used to simplify reading from and writing to sockets, allowing for easier handling of text data.
