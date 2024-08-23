@@ -12,7 +12,7 @@ public final class Client {
     {
         try{
             System.out.println("Sending request to server");
-          socket = new Socket("127.0.0.1",7777);
+          socket = new Socket("127.0.0.1",7778);
             System.out.println("Connection done");
             br =new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream());
