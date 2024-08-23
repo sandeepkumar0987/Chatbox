@@ -11,7 +11,7 @@ import java.net.*;
     //constructor
     public Server(){
         try{
-            server = new ServerSocket(7777);
+            server = new ServerSocket(7778);
             System.out.println("srever is ready to accept to connection.");
             System.out.println("waiting..");
             socket =server.accept();
