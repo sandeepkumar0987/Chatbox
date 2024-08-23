@@ -11,10 +11,10 @@ Listens for incoming client connections on a specific port (e.g., 1234).
 Handles multiple clients simultaneously using threading.
 Broadcasts messages received from one client to all other connected clients.
 Maintains a list of connected clients to manage connections and relay messages.
-    b. Chat Client
 
-    
-Role: The client is a participant in the chat, sending and receiving messages via the server.
+
+
+    b. Chat ClientRole: The client is a participant in the chat, sending and receiving messages via the server.
 Functionality:
 Connects to the server using its hostname and port.
 Allows users to enter their names and chat messages through the console.
