@@ -54,7 +54,7 @@ public  class Client  extends JFrame {
                 if(e.getKeyCode()==10){
                   //  System.out.println("You have passed Enter Bottom");
                     String contentToSend = messageInput.getText();
-                    messageArea.append("Me " + contentToSend +"\n");
+                    messageArea.append("Me : " + contentToSend +"\n");
                     out.println(contentToSend);
                     out.flush();
                     messageInput.setText("");
